@@ -42,6 +42,9 @@ const BasicForm = (props) => {
 			return;
 		}
 
+		console.log("SUBMITTED!");
+		console.log(firstNameInputValue, lastNameInputValue, emailInputValue);
+
 		resetFirstName();
 		resetLastName();
 		resetEmail();
